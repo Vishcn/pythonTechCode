@@ -1,8 +1,8 @@
+# -*- coding: utf-8 -*-
 __author__ = 'Vishcn'
-##这个是拉钩最美hr刷票脚本
 import cookielib
 import urllib2
-
+#这个是拉钩最美HR评选刷票用的小脚本
 def make_cookie(name, value):
     return cookielib.Cookie(
         version=0,
